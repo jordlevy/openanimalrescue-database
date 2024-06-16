@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go vendor directory
+vendor/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# Dependency directories
+pkg/
+bin/
+
+# Go test binaries
+*.test
+
+# Node modules (if you're using any front-end libraries/tools)
+node_modules/
+
+# GORM generated files
+gorm.DB
+
+.DS_Store
